@@ -18,10 +18,9 @@
       border: 1px solid #ccc;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-      
     }
     .container button {
-      width: 24%;
+      width: 30%;
       height: 28px;
       background-color: #5553e8;
       align-items: center;
@@ -31,13 +30,16 @@
     .container button:hover {
       background-color: #a5a4da;
     }
-    .form-container input {
-      /* border: none; */
-    }
+
     input:focus {
       outline: none;
       /* If needed, you can also add custom focus styling here */
       /* Example: background-color: #e0e0e0; */
+    }
+    .form-container button a {
+      text-decoration: none;
+      color: #000;
+    
     }
   </style>
   <body>
@@ -68,6 +70,10 @@
           <br /><br />
           <!-- <input type="submit" value="register" name="" id="" /> -->
           <button type="submit" value="register">Register</button>
+
+          <button  id="login">
+            <a href="login.jsp">Login</a>
+          </button>
         </form>
       </div>
     </body>
